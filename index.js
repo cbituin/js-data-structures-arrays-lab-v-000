@@ -24,7 +24,8 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  drivers.slice().unshift(name);
+  let arr = drivers.slice()
+  arr.unshift(name);
 }
 
 function removeLastDriver() {
